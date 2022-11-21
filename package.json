@@ -1,0 +1,29 @@
+{
+  "name": "nezam-js",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Anna Merkulova",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1",
+     "css-loader": "^6.7.2",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
